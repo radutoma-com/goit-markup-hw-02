@@ -2,14 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-  </head>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700|Roboto:400,500,700,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>  
   <body>
     <header>
-      <div>
-        <h1>WebStudio</h1>
+      <div class="logo">
+        Web<span>Studio</span>
       </div>
       <nav>
         <ul>
@@ -18,109 +22,115 @@
           <li><a href="#">Contacts</a></li>
         </ul>
       </nav>
-      <div>
-        <p><a href="mailto:info@devstudio.com">info@devstudio.com</a></p>
-        <p><a href="tel:+12127724150">+1 212-772-4150</a></p>
-      </div>
-    </header>
-    <main>
-      <section>
-        <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-        <button type="button">Request our service</button>
+      <nav>
+        <ul>
+          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a href="tel:+12127724150">+1 212-772-4150</a></li>
+        </ul>
+      </nav>
+    </header>          
+    <main class="bg-hero">
+      <section class="hero">
+        <h1 class="title-hero">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+        <button type="button" class="hero-btn">
+    		<span class="btn-text">Request our service</span>
+		    </button>
       </section>
-    </main>
-    <section>
+    </main>    
+    <section class="adv">
       <div>
-        <h3>ATTENTION TO DETAILS</h3>
-        <p>
+        <h3 class="adv-title-col1">ATTENTION TO DETAILS</h3>
+        <p class="adv-desc-col1">
           We go into all the details and processes of your business to develop a
           customized solution.
         </p>
       </div>
       <div>
-        <h3>PUNCTUALITY</h3>
-        <p>
+        <h3 class="adv-title-col2">PUNCTUALITY</h3>
+        <p class="adv-desc-col2">
           With us, you can feel safe and secure. An important principle of the
           company: respect your time and deadlines.
         </p>
       </div>
       <div>
-        <h3>PLANNING</h3>
-        <p>
+        <h3 class="adv-title-col3">PLANNING</h3>
+        <p class="adv-desc-col3">
           You will be able to observe and participate in every phase of solution
           development and implementation.
         </p>
       </div>
       <div>
-        <h3>MODERN TECHNOLOGIES</h3>
-        <p>
+        <h3 class="adv-title-col4">MODERN TECHNOLOGIES</h3>
+        <p class="adv-desc-col4">
           We use innovative tools to solve assigned tasks. It's time to simplify
           work processes.
         </p>
       </div>
     </section>
-    <section>
-      <h2>What we do</h2>
-      <div>
-        <img src="images/box1.jpg" alt="Keyboard" width="370" height="294" />
+    <section class="wwd">
+      <h2 class="wwd-title">What we do</h2>
+      <div class="wwd-box1">
+        <img class="wwd-img1" src="images/box1.jpg" alt="Keyboard" width="370" height="294" />
       </div>
-      <div>
-        <img src="images/box2.jpg" alt="Notebook" width="370" height="294" />
+      <div class="wwd-box2">
+        <img class="wwd-img2" src="images/box2.jpg" alt="Notebook" width="370" height="294" />
       </div>
-      <div>
-        <img src="images/box3.jpg" alt="Tablet" width="370" height="294" />
+      <div class="wwd-box3">
+        <img class="wwd-img3" src="images/box3.jpg" alt="Tablet" width="370" height="294" />
       </div>
     </section>
-    <section>
-      <h2>Our Team</h2>
-      <div>
-        <img
-          src="images/Christopher-Walker.jpg"
-          alt="Christopher Walker"
-          width="270"
-          height="260"
-        />
-        <p><strong>Christopher Walker</strong></p>
-        <p>Product Designer</p>
-      </div>
-      <div>
-        <img
-          src="images/Kylie-Evans.jpg"
-          alt="Kylie Evans"
-          width="270"
-          height="260"
-        />
-        <p><strong>Kylie Evans</strong></p>
-        <p>Frontend Developer</p>
-      </div>
-      <div>
-        <img
-          src="images/Ryan-Harris.jpg"
-          alt="Ryan Harris"
-          width="270"
-          height="260"
-        />
-        <p><strong>Ryan Harris</strong></p>
-        <p>Marketing</p>
-      </div>
-      <div>
-        <img
-          src="images/Tyler-Moore.jpg"
-          alt="Tyler Moore"
-          width="270"
-          height="260"
-        />
-        <p><strong>Tyler Moore</strong></p>
-        <p>UI Designer</p>
+    <section class="team-section">
+      <h2 class="team-title">Our Team</h2>
+      <div class="team"></div>
+        <div class="t-card1">
+          <img class="t-img1"
+            src="images/Christopher-Walker.jpg"
+            alt="Christopher Walker"
+            width="270"
+            height="260"
+          />
+          <p class="team1"><strong>Christopher Walker</strong></p>
+          <p class="t-desc1">Product Designer</p>
+        </div>
+        <div class="t-card2">
+          <img class="t-img2"
+            src="images/Kylie-Evans.jpg"
+            alt="Kylie Evans"
+            width="270"
+            height="260"
+          />
+          <p class="team2"><strong>Kylie Evans</strong></p>
+          <p class="t-desc2">Frontend Developer</p>
+        </div>
+        <div class="t-card3">
+          <img class="t-img3"
+            src="images/Ryan-Harris.jpg"
+            alt="Ryan Harris"
+            width="270"
+            height="260"
+          />
+          <p class="team3"><strong>Ryan Harris</strong></p>
+          <p class="t-desc3">Marketing</p>
+        </div>
+        <div class="t-card4 card-bg4">
+          <img class="t-img4"
+            src="images/Tyler-Moore.jpg"
+            alt="Tyler Moore"
+            width="270"
+            height="260"
+          />
+          <p class="team4"><strong>Tyler Moore</strong></p>
+          <p class="t-desc4">UI Designer</p>
+        </div>
       </div>
     </section>
   </body>
-  <footer>
-    <h2>WebStudio</h2>
-    <address>
-      695 Park Ave, NY 10065, USA<br />
-      info@devstudio.com<br />
-      +1 212-772-4150
+  <footer class="footer">
+    <h2 class="logo-footer">Web<span>Studio</span></h2>
+    <address class="address-section">
+        <p class="address">695 Park Ave, NY 10065, USA</p>
+        <p class="email">info@devstudio.com</p>
+        <p class="tel">+1 212-772-4150</p>
     </address>
-  </footer>
+</footer>  
 </html>

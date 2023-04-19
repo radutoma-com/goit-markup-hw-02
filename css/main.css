@@ -1,0 +1,825 @@
+/* General styling */
+:root {
+  --color-text: #333;
+  --color-background: #fff;
+  --color-highlight: #2196F3;
+}
+  
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: var(--color-text);
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main */
+.main {
+position: relative;
+width: 100%;
+height: 2348px;
+background: #FFF;
+}
+  
+/* Top line bg */
+.top-line {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  left: 0;
+  top: 0;
+  background-color: var(--color-background);
+  border: 1px solid var(--color-text);
+  }
+
+/* Top line bg */
+.top-line {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+/* Logo */
+.logo {
+  color: #2196F3;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+.logo span {
+  color: #000;
+}
+
+/* Header */
+header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 20px;
+}
+
+/* Navigation menu */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #333;
+}
+
+nav ul li a:hover {
+  color: #2196F3;
+}
+
+/* Hero */
+
+.hero {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Bg Hero */
+
+.bg-hero {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background: #2F303A;
+}
+
+/* EFFECTIVE SOLUTIONS FOR YOUR BUSINESS */
+
+.title-hero {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/* Hero Button */
+
+.hero-btn {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  margin-top: 20px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/* Request our service */
+
+.btn-text {
+  position: absolute;
+  width: 161px;
+  height: 30px;
+  left: 720px;
+  top: 440px;
+  z-index: 100;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
+
+/* Advantages */
+
+.adv {
+  position: relative;
+  width: 1170px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+}
+
+/* ATTENTION TO DETAILS */
+
+.adv-title-col1 {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 215px;
+  top: 774px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+/* We go into all the details and processes of your business to develop a customized solution. */
+
+.adv-desc-col1 {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 215px;
+  top: 800px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* PUNCTUALITY */
+
+.adv-title-col2 {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 515px;
+  top: 774px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+/* With us, you can feel safe and secure. An important principle of the company: respect your time and deadlines. */
+
+.adv-desc-col2 {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 515px;
+  top: 800px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* PLANNING */
+
+.adv-title-col3 {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 815px;
+  top: 774px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+/* You will be able to observe and participate in every phase of solution development and implementation. */
+
+.adv-desc-col3 {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 815px;
+  top: 800px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* MODERN TECHNOLOGIES */
+
+.adv-title-col4 {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 1115px;
+  top: 774px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+/* We use innovative tools to solve assigned tasks. It's time to simplify work processes. */
+
+.adv-desc-col4 {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 1115px;
+  top: 800px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* What we do */
+
+.wwd {
+  position: absolute;
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
+}
+
+/* What we do title*/
+
+.wwd-title {
+  position: absolute;
+  width: 198px;
+  height: 42px;
+  left: 701px;
+  top: 969px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* box 1 */
+
+.wwd-box1 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1061px;
+}
+
+/* img 1 */
+
+.wwd-img1 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1061px;
+  background: url(.jpg);
+  mix-blend-mode: normal;
+}
+
+/* box 2 */
+
+.wwd-box2 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 1061px;
+}
+
+/* img 2 */
+
+.wwd-img2 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 1061px;
+  background: url(.jpg);
+}
+
+/* box 3 */
+
+.wwd-box3 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 1061px;
+}
+
+/* img 3 */
+
+.wwd-img3 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 1061px;
+  background: url(.jpg);
+}
+
+/* Our team */
+
+.team-section {
+  position: absolute;
+  width: 100%;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+  background: #F5F4FA;
+}
+
+/* Our Team Title */
+
+.team-title {
+  position: absolute;
+  width: 165px;
+  height: 42px;
+  left: 718px;
+  top: 1543px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* team  */
+
+.team {
+  position: absolute;
+  width: 1170px;
+  height: 368px;
+  left: 215px;
+  top: 1635px;
+}
+
+/* team card 1 */
+
+.t-card1 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1635px;
+  background: #FFFFFF;
+  /* material shadow v1 */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* team-img1 */
+
+.t-img1 {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  left: 215px;
+  top: 1635px;
+  background: url(.jpg);
+  border-radius: 0px;
+}
+
+/* Christopher Walker */
+
+.team1 {
+  position: absolute;
+  width: 145px;
+  height: 19px;
+  left: 278px;
+  top: 1925px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* Product Designer */
+
+.t-desc1 {
+  position: absolute;
+  width: 130px;
+  height: 19px;
+  left: 285px;
+  top: 1954px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* team card 2 */
+
+.t-card2 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 515px;
+  top: 1635px;
+  background: #FFFFFF;
+  /* material shadow v1 */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* team-img2 */
+
+.t-img2 {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  left: 515px;
+  top: 1635px;
+  background: url(.jpg);
+  border-radius: 0px;
+}
+
+/* Kylie Evans */
+
+.team2 {
+  position: absolute;
+  width: 86px;
+  height: 19px;
+  left: 607px;
+  top: 1925px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* Frontend Developer */
+
+.t-desc2 {
+  position: absolute;
+  width: 147px;
+  height: 19px;
+  left: 577px;
+  top: 1954px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* team card 3 */
+
+.t-card3 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 815px;
+  top: 1635px;
+  background: #FFFFFF;
+  /* material shadow v1 */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* team-img3 */
+
+.t-img3 {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  left: 815px;
+  top: 1635px;
+  background: url(.jpg);
+  border-radius: 0px;
+}
+
+/* Ryan Harris */
+
+.team3 {
+  position: absolute;
+  width: 88px;
+  height: 19px;
+  left: 906px;
+  top: 1925px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* Marketing */
+
+.t-desc3 {
+  position: absolute;
+  width: 76px;
+  height: 19px;
+  left: 912px;
+  top: 1954px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* team card 4 */
+
+.t-card4 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 1115px;
+  top: 1635px;
+  background: #FFFFFF;
+  /* material shadow v1 */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* team-img4 */
+
+.t-img4 {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  left: 1115px;
+  top: 1635px;
+  background: url(.jpg);
+  border-radius: 0px;
+}
+
+/* Tyler Moore */
+
+.team4 {
+  position: absolute;
+  width: 91px;
+  height: 19px;
+  left: 1205px;
+  top: 1925px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* UI Designer */
+
+.t-desc4 {
+  position: absolute;
+  width: 87px;
+  height: 19px;
+  left: 1207px;
+  top: 1954px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* Footer */
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 251px;
+  left: 0px;
+  top: 2097px;
+  background: #2F303A;
+}
+
+/* WebStudio */
+
+.logo-footer {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 2157px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+}
+
+/* Logo footer */
+.logo-footer {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 2157px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #2196F3;
+}
+
+.logo-footer span {
+  color: #fff;
+}
+
+/* Address Section */
+
+.address-section {
+  position: absolute;
+  width: 231px;
+  height: 72px;
+  left: 215px;
+  top: 2216px;
+}
+
+/* 695 Park Ave, NY 10065, USA */
+
+.address {
+  position: absolute;
+  width: 207px;
+  height: 16px;
+  left: 215px;
+  top: 2216px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+/* info@devstudio.com */
+
+.email {
+  position: absolute;
+  width: 231px;
+  height: 16px;
+  left: 215px;
+  top: 2244px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* +1 212-772-4150 */
+
+.tel {
+  position: absolute;
+  width: 231px;
+  height: 16px;
+  left: 215px;
+  top: 2272px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
